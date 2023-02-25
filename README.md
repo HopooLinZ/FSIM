@@ -6,18 +6,18 @@ Our work proposes a domain-adaptive framework for crowd counting based on more s
 ![figure](https://user-images.githubusercontent.com/126315443/221344905-bd5bae09-0860-435b-b8e1-e046889df440.png)
 ## Preparation
 #### Requirements
---python >=3.6 
---pytorch >=1.4
---opencv-python >=4.0
---scipy >=1.4.0
---h5py >=2.10
---pillow >=7.0.0
---imageio >=1.18
---nni >=2.0 (python3 -m pip install --upgrade nni)
---Install Facebook FAISS by running conda install faiss-cpu -c pytorch 
+- python >=3.6 
+- pytorch >=1.4
+- opencv-python >=4.0
+- scipy >=1.4.0
+- h5py >=2.10
+- pillow >=7.0.0
+- imageio >=1.18
+- nni >=2.0 (python3 -m pip install --upgrade nni)
+- Install Facebook FAISS by running conda install faiss-cpu -c pytorch 
 Optional: install the faiss-gpu under the instruction according to your CUDA version
---Install joblib by running conda install joblib
---Install tqdm by running conda install tqdm
+- Install joblib by running conda install joblib
+- Install tqdm by running conda install tqdm
 ## Dataset
 We support several datasets as
 - ShanghaiTech 
